@@ -1,7 +1,3 @@
-//mongodb+srv://<username>:<password>@projecttasker.yzlutup.mongodb.net/?retryWrites=true&w=majority       dilip-api   restapi
-
-
-
 require('dotenv').config()
 const mongoose = require('mongoose')
 
@@ -16,13 +12,6 @@ app.use(express.json())
 
 
 //routes
-
-
-
-
-
-
-
 
 app.get('/',(req,res)=>{
     res.send('Welcome Home')
